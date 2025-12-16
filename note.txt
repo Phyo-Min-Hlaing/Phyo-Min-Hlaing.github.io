@@ -1,0 +1,6 @@
+git status
+git add . (all file add)
+git add "filename" (Each file add)
+git commit -m "message" (Upload file)
+git push
+git push -u origin master
