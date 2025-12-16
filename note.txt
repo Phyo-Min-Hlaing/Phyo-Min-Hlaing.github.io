@@ -5,4 +5,4 @@ git commit -m "message" (Upload file)
 git config --global user.email "phyo1401@gmail.com"
 git config --global user.name "Phyo-Min-Hlaing"
 git push
-git push -u origin master 
+git push -u origin main
