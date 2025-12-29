@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+p{
+    color: rgb(27, 27, 27);
+    font-size: 12px;
+    text-indent: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 24px;
+}
