@@ -1,9 +1,18 @@
 h1{
+    /* 
     color: red;
+    color: #ff0000; hex code --> 0 to 9 --> a to f
+    color: #ff0; short hex code
+    color: rgb(139, 57, 25); rgb (red,green,blue --> 0 to 255)
+    */
+    color: #ff9900; 
     text-align: center;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    font-size: 24px;
+    background-color: antiquewhite;
+    padding: 12px;
 }
 p{
     color: rgb(27, 27, 27);
