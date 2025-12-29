@@ -10,7 +10,12 @@
     <center>Form Lessons</center> -->
     <!-- method: get / post
         Action: Link for where you want to go -->
-    <form action="register.html" method="post">
+    <form action="register.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="image">Image</label>
+            <input type="file" name="image" id="image">
+        </div>
+        <br>
         <div>
             <label for="name">Name:</label> <BR>
             <input type="text" id="name" placeholder="Your name" name="name">
@@ -19,6 +24,52 @@
         <div>
             <label for="email">Email:</label> <br>
             <input type="email" id="email" placeholder="Your email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label> <br>
+            <input type="date" id="age" name="age">
+        </div>
+        <br>
+        <div>
+            <label for="color">Color</label>
+            <br>
+            <input type="color" id="color" name="color">
+        </div>
+        <br>
+        <div>
+            <label for="">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+        </div>
+        <br>
+       
+            <label for="hobby">Hobby</label>
+        <div>
+           <input type="checkbox" id="reading" name="hobby" value="reading"><label for="reading">Reading</label> 
+           <br>
+           <input type="checkbox" id="travelling" name="hobby" value="travelling"><label for="travelling">Travelling</label>
+           <br>
+           <input type="checkbox" id="gaming" name="hobby" value="gaming"><label for="gaming">Gaming</label>
+           <br>
+           <input type="checkbox" id="listening" name="hobby" value="listening"><label for="listening">Listening</label>
+        </div>
+        <br>
+        <div>
+            <label for="education">Educatiion</label>
+            <select name="" id="">
+                <option value="first year">First Year</option>
+                <option value="Second year">Second Year</option>
+                <option value="Third year">Third Year</option>
+                <option value="Fourth year">Fourth Year</option>
+                <option value="Graduated">Graduated</option>
+            </select>
+        </div>
+        <div>
+            <label for="address">Address</label> <br>
+            <textarea name="address" id="address"></textarea>
         </div>
         <br>
             <button>Register</button>
