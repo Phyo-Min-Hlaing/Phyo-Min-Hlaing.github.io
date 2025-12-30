@@ -1,13 +1,72 @@
-*{
+/* *{
     color: red;
     margin: 0;
-    padding: 0;
-    font-style: ;
-}
+    padding: 0; 
+} */
 
 /*Element Selector/Tag Selector*/
 h1{
     text-align: center;
     color: blueviolet;
     text-transform: capitalize;
+}
+
+/*Attribute Selector */
+a[title="facebook"]{
+color: green;
+text-decoration: none;
+}
+
+/* Id Selector */
+
+#idselector{
+    color:blue;
+    line-height: 30px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-transform:capitalize;
+}
+
+/* Class Selector */
+
+.classone{
+    color: green;
+    line-height: 25px;
+    word-spacing: 8px;
+    font-style: italic;
+    /* text-decoration-line: underline;*/
+    text-indent: 40px;
+}
+/* Descendant Selector */
+  /*  p a{
+    color: rgba(0, 255, 179, 0.623);
+} */
+
+ #desc a{
+    color: rgb(8, 226, 226);
+}
+
+/* Child Selector */
+#child>a{
+    color: green;
+}
+
+/* Pseudo Selector */
+
+a:link{
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+    text-decoration: dotted underline;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: red;
 }
