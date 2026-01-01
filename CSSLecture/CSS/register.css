@@ -9,7 +9,6 @@ body{
 
 #form{
     width: 70%;
-    background-color: white;
     margin: auto;
 }
 input[type="text"],input[type="email"],input[type="number"]{
