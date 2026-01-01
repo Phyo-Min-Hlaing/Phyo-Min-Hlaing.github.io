@@ -1,0 +1,40 @@
+body{
+    background-color: #dbd8d8;
+}
+#header{
+    text-align: center;
+    color: #2c2c2c;
+    text-transform:uppercase;
+}
+
+#form{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    width: 100%;
+    height: 44px;
+    outline: none;
+    border-radius: 8px;
+    border: 0.5px solid #cccccc;
+}
+input[type="text"],input[type="email"],input[type="number"]:focus{
+    border: 4px solid #0a56bb
+}
+input[type="radio"]:checked + label{
+    color: #0a56bb;
+    text-transform: uppercase;
+    font-weight: bold
+}
+input[type="checkbox"]:enabled + label{
+    font-style: italic;
+}
+input[type="checkbox"]:checked + label{
+    color: #bb420a;
+    font-style: italic;
+}
+input[type="checkbox"]:disabled + label{
+    color: #a5a5a5;
+    font-style: italic;
+}
