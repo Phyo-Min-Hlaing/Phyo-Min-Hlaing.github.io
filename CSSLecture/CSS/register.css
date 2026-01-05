@@ -37,3 +37,39 @@ input[type="checkbox"]:disabled + label{
     color: #a5a5a5;
     font-style: italic;
 }
+ul li:first-child{
+    background-color: red;
+}
+ul li:last-child{
+    background-color: green;
+}
+ul li:nth-child(3){
+    background-color: #0a56bb;
+}
+ul li:nth-child(5){
+    background-color: aqua;
+}
+.thankyou{
+    text-align: center;
+}
+:empty{
+    background-color: #bb420a;
+    height: 20px;
+}
+#submitbutton{
+    height: 44px;
+    width: 120px;
+    background-color:#0a56bb;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+}
+#submitbutton:hover{
+    background-color: #032450;
+    color: #ffffff;
+}
+#submitbutton:focus{
+    border: 4px solid #bebebe;
+    color:#0a56bb;
+    background-color: white;
+}
