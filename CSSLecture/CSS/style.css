@@ -66,3 +66,47 @@ p{
     width: 200px;
     text-indent: 0px;
 }
+.float_left img{
+    width: 40%;
+    float: left;
+    padding: 16px;
+    margin-right: 16px;
+}
+.clear{
+    clear: both;
+}
+.float_right img{
+    width: 60%;
+    float: right;
+    padding: 16px;
+    margin-right: 16px;
+}
+.float_right p{
+    text-align: justify;
+}
+.float_right h2{
+    text-align: center;
+}
+.grid_one div, .grid_two div, .grid_three div, .grid_four div{
+    padding: 20px;
+    text-align: center;
+}
+.grid_one, .grid_two, .grid_three, .grid_four{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.grid_two{
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+    grid-gap: 16px 32px;
+    /* Row Column */
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
