@@ -110,3 +110,47 @@ p{
     grid-row-end: 3;
     grid-column-start: 1;
 }
+.relative_parent{
+    border: 1px solid red;
+    height: 500px;
+}
+.relative{
+    border: 1px solid blueviolet;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+.absolute_parent{
+    border: 1px solid red;
+    height: 500px;
+    position: relative;
+}
+.absolute{
+    border: 1px solid blueviolet;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.fixed{
+    position:fixed;
+    top: 100px;
+    right: 200px;
+}
+.online_font{
+  font-family: "Noto Serif Myanmar", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+@font-face{
+    src: url('../fonts/Padauk-Regular.ttf');
+    font-family: 'padauk';
+}
+.offline_font{
+font-family: "padauk";
+font-size: 16px;
+}
