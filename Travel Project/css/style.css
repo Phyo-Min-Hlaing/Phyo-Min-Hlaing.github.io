@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: lato;
+    src: url(../Fonts/Lato/Lato-Regular.ttf);
+}
+.en{
+    font-family: lato;
+    
+}
+.contact{
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+.contact:hover{
+    color: #ffa900 ;
+}
+.inline{
+    display:inline;
+    padding: 8px;
+    width: ;
