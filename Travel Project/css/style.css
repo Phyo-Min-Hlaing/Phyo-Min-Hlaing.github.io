@@ -8,17 +8,116 @@
 }
 .en{
     font-family: lato;
-    
+    font-weight:400;
 }
 .contact{
-    font-size: 14px;
+    font-size: 16px;
     color: white;
-    background-color: black;
 }
 .contact:hover{
     color: #ffa900 ;
 }
-.inline{
-    display:inline;
-    padding: 8px;
+.nav_contact{
+    padding: 20px 0 20px 0;
+    background-color: black;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 72px 0 72px;
+}
+.nav_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social{
+    margin: 0 4px 0 0;
+    font-size: 20px;
+    color: #ffa900;
+}
+.social:hover{
+    color: #cf8a00;
+}
+.logo{
+    width: 78px;
+    height: auto;
+}
+.navbar2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 72px 12px 72px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+.navbar3{
+    background-color: #ffffff;
+    /* margin: 12px 72px 12px 72px; */
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    padding: 24px;
+    font-size: 20px;
+    margin: 0 16px;
+    color: #1d1d1d;
+    position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 8px;    
+    background-color: #ffffff;
+}
+.button:hover{
+    color: #0a56bb;
+    border: 1px solid #0a56bb;
+    border-radius: 8px;    
+    background-color: #d2e2f8;
+}
+.primary{
+    background-color: #0a56bb;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 48px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, .08);
+}
+
+.primary:hover{
+    background-color: #064aa1;
+    /* color: white;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, .08); */
+}
+.outline{
+    background-color: #ffffff;
+    color: #202020;
+    border-radius: 8px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.block{
+    display: block;
+    position: absolute;
+    top: 300px;
+    padding: 0 72px;
+    font-size: 20px;
+    color: white;
+}
+.line_width{
+    /* position: relative;
+    display: block; */
+    width: 150px;
 }
