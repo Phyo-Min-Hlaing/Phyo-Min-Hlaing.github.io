@@ -56,6 +56,7 @@
 }
 .navbar3{
     background-color: #ffffff;
+    text-decoration: none;
     /* margin: 12px 72px 12px 72px; */
 }
 .nav_menu{
@@ -80,6 +81,7 @@
     background-color: #d2e2f8;
 }
 .primary{
+    display: inline-block;
     background-color: #0a56bb;
     color: white;
     border-radius: 50px;
@@ -111,13 +113,18 @@
 .block{
     display: block;
     position: absolute;
-    top: 300px;
+    top: 200px;
     padding: 0 72px;
-    font-size: 20px;
-    color: white;
 }
-.line_width{
-    /* position: relative;
-    display: block; */
-    width: 150px;
+h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    width: 40%;
+}
+.p_width{
+    width: 40%;
+    color: #ffffff;
+    font-size: 16px;
+
 }
