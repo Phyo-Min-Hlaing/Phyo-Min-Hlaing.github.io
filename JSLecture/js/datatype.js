@@ -26,3 +26,30 @@ console.log(myBaby);
 let son = null;
 console.log(son);
 console.log(typeof(son));
+
+// array
+
+let arr1 = Array('a' , 'b' , 'c');
+console.log(arr1);
+console.log(typeof(arr1));
+
+let arr2 = [1,2,3,4,5];
+console.log(arr2);
+console.log(typeof(arr2));
+
+// multiarray
+
+let multi = ['Mg Mg',"Aung Aung",'Hla Hla',['Tun Tun',"Mya Mya"],'Aye Aye'];
+console.log(multi);
+console.log(typeof(multi));
+
+// Object
+
+let student = {
+    // key : value ,
+    name : 'Kyaw Kyaw',
+    age : 29,
+    address : 'Yangon',
+    educaation : "B.Sc",
+}
+console.log(student);
