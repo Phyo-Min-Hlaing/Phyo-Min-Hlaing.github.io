@@ -53,3 +53,4 @@ let student = {
     educaation : "B.Sc",
 }
 console.log(student);
+
