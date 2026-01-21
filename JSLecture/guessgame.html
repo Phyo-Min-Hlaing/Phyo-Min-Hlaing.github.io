@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let secretNo = 7;
+    let clickCount = 0;
+    let guessNo = prompt(`Enter a number between 1 to 20!`);
+
+
+while (secretNo != guessNo) {
+    if (guessNo == secretNo) {
+        alert("Correct! You guessed the secret number!");
+    } else {
+        alert("Wrong number. Try again!");
+    }
+    guessNo = prompt(`Enter a number between 1 to 20!`);
+    clickCount++;
+}
+document.write(`Wow, Secret number is correct, You tried ${clickCount} times`);
+    </script>
+</body>
+</html>
