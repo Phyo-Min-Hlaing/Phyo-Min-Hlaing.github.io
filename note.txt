@@ -25,4 +25,4 @@ control + x (cut)
 control + v (paste)
 control + d (same word select)
 
-alt + mouse click (same time write)
+alt + mouse click (same time write) 
